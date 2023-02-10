@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "public/scripts",
+    "target": "ES2015",
+    "module": "ES2015",
+    "moduleResolution": "Node",
+    "allowJs": true
+  },
+  "files": [
+    "src/index.ts",
+    "src/flat-rent-sdk.js"
+  ],
+  "input": [
+    "src/flat-rent-sdk.js"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "public/scripts",
+    "target": "ES2015",
+    "module": "ES2015",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes":true,
+    "strictPropertyInitialization":true,
+    "strictBindCallApply": true,
+    "noImplicitThis":true,
+    "noPropertyAccessFromIndexSignature":true,
+    "noUncheckedIndexedAccess":true,
+    "noImplicitReturns":true,
+    "noFallthroughCasesInSwitch":true,
+    "noUnusedLocals":true,
+    "noUnusedParameters": true
+  },
+  "files": [
+    "src/index.ts",
+    "src/flat-rent-sdk.js"
+  ],
+  "input": [
+    "src/flat-rent-sdk.js"
+  ]
+}
